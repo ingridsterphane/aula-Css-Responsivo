@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(black 50%, rgb(182, 27, 213)130%);
+
+}
+
+nav {
+    font-size: 1.2em;
+    display: flex;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cabecalho {
+    margin-left: 60px;
+    height: 30px;
+    width: 22%;
+    padding: 5px;
+}
+
+.logo {
+    float: left;
+    width: 100px;
+    height: 10px;
+
+}
+
+.logo_img {
+    position: absolute;
+    height: 50px;
+    width: 55px;
+    margin-top: -5px;
+    margin-left: -50px;
+
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+/* link que foi visitado */
+a:visited {
+    color: white;
+}
+
+/* mouse over */
+a:hover {
+    text-decoration: underline;
+    color: purple;
+    font-weight: bold;
+}
+
+/* link selecionado */
+a:active {
+    color: #9b9b9b;
+}
+
+.titulo {
+    background-image: url("onu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 4.365em;
+    color: whitesmoke;
+    margin-top: 330px;
+}
+
+blockquote {
+    font-family: 'Lily Script One';
+    color: white;
+    width: 40%;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    font-style: inherit;
+    text-align: center;
+    padding: 10px;
+    margin-top: 70px;
+    border: 0;
+}
+
+/* Responsividade do Site */
+@media(max-width:800px) {
+
+    * {
+        margin: 0;
+    }
+
+    .cabecalho {
+        margin-left: 0px;
+    }
+
+    .titulo {
+        text-align: center;
+        height: 15em;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin-top: 75px;
+        margin-bottom: 10px;
+    }
+
+    blockquote {
+        margin-top: 20px;
+        text-align: center;
+        width: 92%;
+        margin-left: 20px;
+    }
+
+    footer {
+        padding: 50px;
+        margin-top: 10px;
+    }
+
+}
